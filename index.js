@@ -13,6 +13,8 @@
   function fuzzyMatch(drivers, letters) {
     let result = drivers.filter(driver => {
       let driverLetters = driver.charAt(0) + driver.charAt(1);
+      if driverLetters = letters { return driver }
+
     });
 
 
