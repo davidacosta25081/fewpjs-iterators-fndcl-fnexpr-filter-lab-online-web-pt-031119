@@ -19,3 +19,10 @@
     });
   return result;
   }
+
+
+  function matchName(drivers,name){
+    let result = drivers.filter(driver => {
+    return driver.name === name });
+    return result;
+  }
